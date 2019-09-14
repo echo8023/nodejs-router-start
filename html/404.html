@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>404！ 您的页面没有找到，即将为您跳转到首页(跳转写一个计时器,跳转localtion.href=...)</h1>
+    <script>
+        setTimeout(() => {
+            location.href = "/"; //不要写完整路径，就是一个/代表根目录
+            // location.href = "/reg"; //写路由switch循环中case对应的路径就行
+            // location.href = "/login"; //写路由switch循环中case对应的路径就行
+        }, 3000);
+    </script>
+</body>
+
+</html>
